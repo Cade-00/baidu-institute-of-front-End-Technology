@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+}
+
+#header {
+	width: 100%;
+	
+	height: 80px;
+	background: #000000;
+}
+#header .in {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+.Logo {
+	color: white;
+	line-height: 75px;
+}
+ nav {
+	 float: right;
+	 margin-top: -70px;
+ }
+nav > a {
+	color: white;
+	margin-right: 0.5em;
+}
+#Banner {
+	width: 100%;
+	height: 300px;
+	background: greenyellow;
+}
+.three {
+	float: right;
+	margin-right: 150px;
+	margin-top: 245px;
+}
+.three  a {
+	text-decoration: none;
+	color: #000000;
+	border: 1px solid black;
+	padding: 5px 10px;
+	background: rgba(178, 221, 153, 0.5);
+}
+.three  a:hover,.three a:focus,.three a:active {
+	padding-top: 1.5em;
+	background: rgba(224, 241, 214, 1);
+}
+.a_two {
+	height: 70px;
+	border-bottom: 1px solid silver;
+}
+ul {
+	list-style: none;
+}
+ul a {
+	display: block;
+	background: rgb(238,238,238);
+	border: 1px solid silver;
+	text-decoration: none;
+	height: 50px;
+	width: 108px;
+	text-align: center;
+	line-height: 50px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	margin-right: -4.5px;
+	}
+li {
+	display: inline-block;
+}
+li:first-child {
+	margin-top: 19px;
+	margin-left: 206px;
+}
+li  a:hover,li a:focus,li a:active {
+	border-bottom: 1px solid white;
+	background: white;
+} 
+
+
+#footer {
+	height: 120px;
+	background: rgb(102,102,102);
+	text-align: center;
+}
+p {
+	color: white;
+	padding-top: 10px;
+}
+ #center{
+       /* margin: 0 15%; */
+        width: 960px;
+        /* 父元素定宽，flex子元素无法自适应 */
+        display: flex;
+		margin-left: 246px;
+        flex-wrap: wrap;
+
+
+    }
+    #center div{
+        display: inline-block;
+        flex: 1;
+        text-align: center;
+        border: 1px solid #e0dbdb;
+        margin: 10px 10px 10px 0;
+        padding: 80px;
+    }
+  #center div:nth-of-type(1),:nth-of-type(2){
+        flex: 100px;
+    }

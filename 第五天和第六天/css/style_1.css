@@ -1,0 +1,16 @@
+h2 {
+	font-weight: bold;
+}
+
+p {
+	font-weight: bold;
+}
+span {
+	font-weight: bold;
+}
+span {
+	margin-left: 2em;
+}
+div > span:first-child {
+	margin-left: 0;
+}

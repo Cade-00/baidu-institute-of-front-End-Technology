@@ -1,0 +1,37 @@
+body {
+	width: 1000px;
+	}
+*{
+	margin: 0;
+}
+h1 {
+	color: white;
+	background: silver;
+	height: 3em;
+	text-indent: 2em;
+	margin-bottom: -10px;
+}
+div {
+	
+	margin: 10px 0;
+	height: 7em;
+	padding-top: 1em;
+}
+h2 {
+	margin-top: -16px;
+	float: left;
+	display: block;
+	height: 128px;
+	width: 128px;
+	background: #C0C0C0;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 130px;
+}
+span {
+	margin-left: 2em;
+}
+p {
+	padding-left: 10em;
+}

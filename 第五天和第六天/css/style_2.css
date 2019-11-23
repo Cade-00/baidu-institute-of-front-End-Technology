@@ -1,0 +1,28 @@
+
+h2 {
+	font-weight: bold;
+}
+
+p {
+	font-weight: bold;
+}
+span {
+	font-weight: bold;
+}
+span {
+	margin-left: 2em;
+}
+div > span:first-child {
+	margin-left: 0;
+}
+h1 {
+	float: left;
+	display: block;
+	margin-top: 0;
+	margin-right: 1em;
+	background: skyblue;
+	color: white;
+	height: 22em;
+	width: 5em;
+	text-align: center;
+}
